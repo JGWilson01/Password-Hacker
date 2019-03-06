@@ -1,0 +1,14 @@
+import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
+
+public class PasswordCracker 
+   {
+   String passwordInput = "";
+   static String availableChars = "0123456789AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyzZ";
+   
+   public static void Main(String[] args)
+      {
+      String storeInput;
+      
+      Scanner input = new Scanner(System.in);
+      storeInput = input.nextLine();
