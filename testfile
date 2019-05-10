@@ -12,3 +12,8 @@ public class PasswordCracker
       
       Scanner input = new Scanner(System.in);
       storeInput = input.nextLine();
+
+      hackPass(storeInput);
+      }
+      
+      
